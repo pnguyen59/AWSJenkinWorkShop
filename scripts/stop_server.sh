@@ -11,5 +11,4 @@ fi
 isExistApp=pgrep php-fpm
 if [[ -n $isExistApp ]]; then
 systemctl stop php-fpm.service
-
 fi
