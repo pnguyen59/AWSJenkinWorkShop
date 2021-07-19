@@ -1,4 +1,4 @@
 
 #!/bin/bash
-sudo service httpd restart
-cp -r wordpress/* /var/www/html/
+sudo systemctl start httpd
+sudo systemctl start mariadb
